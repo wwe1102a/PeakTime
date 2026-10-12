@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.fc .fc-button-primary {
+  background-color: #2563eb !important;
+  border-color: #2563eb !important;
+  font-weight: 500;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+}
+.fc .fc-button-primary:hover {
+  background-color: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+}
+.fc .fc-toolbar-title {
+  font-size: 1.25rem !important;
+  font-weight: 700;
+  color: #1f2937;
+}
+.fc .fc-col-header-cell-cushion {
+  color: #4b5563;
+  font-weight: 600;
+  padding: 8px 0 !important;
+}
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #eff6ff !important;
+}
+.fc-theme-standard td, .fc-theme-standard th {
+  border-color: #f3f4f6 !important;
+}
+.fc .fc-button-group {
+  gap: 4px; 
+}
+.fc .fc-button {
+  margin: 0 2px !important;
+  border-radius: 0.375rem !important; 
+}
+.fc .fc-daygrid-day.fc-day-today,
+.fc .fc-timegrid-col.fc-day-today {
+  background-color: #eff6ff !important; 
+}
